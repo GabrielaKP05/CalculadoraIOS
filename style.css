@@ -1,0 +1,82 @@
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #aff5bf;
+}
+
+body{
+    background: url(img/wp11013493.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#calculator{
+    max-width: 360px;
+    background-color:#44b097;
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: 0px 10px 15px#aff5bf;
+}
+
+#display{
+    width: 100%;
+    height: 150px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 7px;
+    color: rgb(49, 167, 75);
+    background: white;
+    border:10px 5px 5px #2e503c;
+    box-sizing: border-box;
+    background-image: url(img/bmo.webp);
+    background-position:top;
+    background-size: contain;
+}
+
+button{
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 22px;
+    margin: 10px 5px;
+    border: rgb(174, 214, 250);
+    border-radius: 20px;
+    float: left;
+    background-color: aliceblue;
+    color: rgb(255, 144, 144);
+    box-shadow:5px 5px 5px rgb(57, 115, 190);
+}
+
+.operator{
+    color: rgb(255, 255, 255);
+    background-color: #0a1d20;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#ac{
+    color: rgb(255, 253, 253);
+    background-color: rgb(250, 100, 100);
+}
+
+.equal{
+    width: calc(50% - px);
+    background-color:#2e503c;
+}
+
+button:hover{
+    cursor: pointer;
+    color: rgb(85, 141, 90);
+}
+
+button:active{
+    transform:scale(.9);
+    box-shadow: rgb(243, 228, 94);
+}
